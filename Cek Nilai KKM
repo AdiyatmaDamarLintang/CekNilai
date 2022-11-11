@@ -1,0 +1,82 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Segitiga;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author LENOVO
+ */
+public class NilaiBagus {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int nilai1, nilai2, nilai3, nilai4, nilai5;
+        System.out.println("~Pengecekan Nilai KKM~");
+        System.out.print("Masukkan nilai pelajaran 1: ");
+        nilai1 = input.nextInt();
+        System.out.print("Masukkan nilai pelajaran 2: ");
+        nilai2 = input.nextInt();
+        System.out.print("Masukkan nilai pelajaran 3: ");
+        nilai3 = input.nextInt();
+        System.out.print("Masukkan nilai pelajaran 4: ");
+        nilai4 = input.nextInt();
+        System.out.print("Masukkan nilai pelajaran 5: ");
+        nilai5 = input.nextInt();
+
+        System.out.println();
+        System.out.println("Pengecekan nilai anda adalah");
+        if (nilai1 <= 60) {
+            System.out.println(nilai1 + " kurang");
+        } else if (nilai1 <= 70) {
+            System.out.println(nilai1 + " cukup");
+        } else if (nilai1 <= 80) {
+            System.out.println(nilai1 + " baik");
+        } else if (nilai1 <= 100) {
+            System.out.println(nilai1 + " luar biasa");
+        }
+
+        if (nilai2 <= 60) {
+            System.out.println(nilai2 + " kurang");
+        } else if (nilai1 <= 70) {
+            System.out.println(nilai2 + " cukup");
+        } else if (nilai1 <= 80) {
+            System.out.println(nilai2 + " baik");
+        } else if (nilai1 <= 100) {
+            System.out.println(nilai2 + " luar biasa");
+        }
+
+        if (nilai3 <= 60) {
+            System.out.println(nilai3 + " kurang");
+        } else if (nilai1 <= 70) {
+            System.out.println(nilai3 + " cukup");
+        } else if (nilai1 <= 80) {
+            System.out.println(nilai3 + " baik");
+        } else if (nilai1 <= 100) {
+            System.out.println(nilai3 + " luar biasa");
+        }
+
+        if (nilai4 <= 60) {
+            System.out.println(nilai4 + " kurang");
+        } else if (nilai1 <= 70) {
+            System.out.println(nilai4 + " cukup");
+        } else if (nilai1 <= 80) {
+            System.out.println(nilai4 + " baik");
+        } else if (nilai1 <= 100) {
+            System.out.println(nilai4 + " luar biasa");
+        }
+
+        if (nilai5 <= 60) {
+            System.out.println(nilai1 + " kurang");
+        } else if (nilai5 <= 70) {
+            System.out.println(nilai1 + " cukup");
+        } else if (nilai5 <= 80) {
+            System.out.println(nilai1 + " baik");
+        } else if (nilai5 <= 100) {
+            System.out.println(nilai1 + " luar biasa");
+        }
+    }
+}
